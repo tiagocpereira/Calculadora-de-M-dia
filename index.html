@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imersão Dev</title>
 </head>
-<body>
-    <div class="container">
-        <h1 class="page-title">
-            Calculadora de Média</h1>
-        <p class="page-subtitle">
-            Descubra qual a sua média de nota de todas as provas!
-        </p>
-        <img src="" class="page-logo" alt="">
+<body class="fundo">
+    <div class="logo-imerssao">
+       <img src="/img/png.webp">         
     </div>
-    <a href="" target="_blank">
-        <img src="" alt="" class="alura-logo">
-        </a>
+
+    <div class="infos">
+       <h1 class="texto">Calculadora de Média</h1>
+       <p class="texto">Descubra qual a sua média do ano para saber se passou!</p>   
+       <input id="mediaDasNotas" type="number" class="inputs" placeholder="Digite a média de aprovação: ">
+       <input id="primeiraNota" type="number" class="inputs" placeholder="Digite a primeira nota: ">
+       <input id="segundaNota" type="number" class="inputs" placeholder="Digite a segunda nota: ">
+       <input id="terceiraNota" type="number" class="inputs" placeholder="Digite a terceira nota: ">
+       <input id="QuartaNota" type="number" class="inputs" placeholder="Digite a terceira nota: ">    
+    </div>
+    <botton id="mudarBotao" class="botao" onclick="calcular()">Calcular</botton>
+    
+    <div class="tela">
+        <h2 class="suaNota" id="suaNota">Sua nota foi:</h2>
+        <h2 class="notareal" id="notareal"></h2>
+        <h3 class="passouounao" id="passou"></h3>
+    </div>
 </body>
 </html>

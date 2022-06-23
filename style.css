@@ -1,36 +1,93 @@
-body {
-    font-family: 'Roboto Mono',monospace;
-    min-height: 400px;
-    background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
-    background-color: #000000;
-    background-size: 80vh;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-  }
+body{
+  margin: 0;
+}
+
+.fundo {
+  background: rgb(58, 79, 202);
+  background-image: url(/img/png.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+}
+
+.logo-imerssao{
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: monospace;
+  margin-bottom: 20px;
+}
+
+.logo-imerssao img{
+  width: 15%;
   
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-  }
-  
-  .page-title {
-    color:#ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color:#ffffff;
-    margin-top: 5px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
+}
+
+.infos{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.texto{
+  margin: 0;
+}
+
+.inputs{
+  display: block;
+  height: 37px;
+  width: 295px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.est-botao{
+  margin: auto;
+  width: 50%;
+  margin-top: 40px;
+  margin-left:44%;
+  margin-bottom: 30px;
+}
+
+.botao{
+  font-weight: 500;
+  font-size: 20px;
+  font-family: monospace;
+  background: rgb(172, 36, 63);
+  text-align: center;
+  padding: 15px 65px;
+  margin: auto;
+  display: table;
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+.tela{
+  background-color: rgba(255, 255, 255, 0.123);
+  color: rgb(255, 255, 255);
+  width: 17%;
+  height: 140px;    
+  margin: auto;
+  margin-top: 30px;
+  padding: 5px 20px; 
+  min-width: 250px;   
+}
+
+.suaNota{
+  margin-top: 30px;
+  font-family: sans-serif;
+  display: inline-block;
+}
+
+.notareal{
+  font-family: sans-serif;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.passouounao{
+  font-family: sans-serif;
+  margin-top: 0px;
+
+}
